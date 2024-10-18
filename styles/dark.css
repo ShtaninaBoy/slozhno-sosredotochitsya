@@ -7,10 +7,14 @@
 .page.theme_dark {
   --accent-color: #ff0070;
   --main-color: #000028;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --fsize: 18px;
   --ffily: IBM Plex Mono;
-  --h2: #ff0070;
-  --title-color:#DB00FF;
-  --bg:url(../images/cover-image-dark.png);
+  --title-content-color: #ff0070;
+  --title-color: #db00ff;
+  --bg: url(../images/cover-image-dark.png);
+  --record: #ff0070;
+  --border: #ff007066;
+  --bg-color: #000028;
+  --decoration: #FF0070;
 }
