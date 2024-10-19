@@ -108,12 +108,12 @@ h4 {
   background-color: transparent;
   border: none;
   font-family: var(--ffily), "monospace", sans-serif;
-  color: var(--accent-color);
+  color: var(--decoration);
   font-size: var(--fsize);
 }
 
 .header__theme-menu-button:focus {
-  border-block-end: 1px solid currentColor;
+  border-block-end: 1px solid var(--decoration);
   outline: none;
 }
 
@@ -223,6 +223,15 @@ h4 {
 .title-images {
   margin-block-start: 80px;
   margin-block-end: 20px;
+}
+.text-what .title-in {
+  margin-block-end: 0;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 
 .images {
